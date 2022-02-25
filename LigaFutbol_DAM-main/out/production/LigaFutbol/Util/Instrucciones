@@ -1,0 +1,41 @@
+Programa View.Principal:
+El programa principal ejecutará automáticamente (y de forma oculta para el usuario) los datos de un número de jornadas,
+ de manera aleatoria para posteriormente darnos las siguientes opciones.
+
+• Ver la clasificación actual.
+• Ver el calendario (mostrando los resultados de los partidos ya jugados)
+• Introducir nuevos resultados (puede hacerse de manera parcial, es decir, uno o más partidos de la jornada actual)   /// JUAN
+
+OPCIONAL: Opcionalmente también se podrán añadir las siguientes opciones.
+
+// Ranking   ALVARO
+• Máximos Goleadores.
+• Mejores Porteros (solo si se habilitan los esquemas de equipo, ver más abajo)
+
+// Menu  JUAN
+• Elegir número de jornadas a simular
+• Resetear liga (con el número de equipos predeterminado)
+• Introducir número de equipos desde teclado (para luego hacer la simulación)
+• Ver resultados, compromisos y otros datos individuales (jugadores, entrenadores, árbitros y equipos)
+
+
+
+// Menu - Clasificacion -
+• Proyecciones de campeones (en jornadas cercanas al final de la liga, ver quien tiene mejores posibilidades de ganar – esto implicará investigación aparte-)
+
+OPCIONAL: Como variantes a elegir sobre nuestro planteamiento inicial podemos añadir elementos algo más deterministas a nuestros equipos tales como:  // ALVARO
+
+        // Alineacion (la clase Partido trae la Alineacion)
+        //• Limitar número de jugadores por posición
+        //• Crear esquemas de equipo (4-4-2, 4-3-3,3-4-3,5-4-1, etc.) que posicionen a los jugadores en los equipos en base a su posición.
+ADOLFO  //. Es decir, en un 4-4-2 el programa elegiría a 4 defensas, 4 centrocampistas y 2 delanteros, así como a un portero.
+        //• Crear titulares (usando el esquema) y suplentes
+        //   Alineacion -> Interfiere en otras clases.
+        //• Generar bajas y lesiones aleatorias.
+
+
+
+// Equipo - Generador de Equipaciones con ¿¿Colores??
+• Gestión de uniformes en casa y fuera en igualdad de colores.
+
+// CUALQUIER COSA QUE SE OS PUEDA OCURRIR VALDRÁ SIEMPRE QUE SEA FUNCIONAL Y APORTE.
